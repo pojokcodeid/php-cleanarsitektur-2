@@ -1,0 +1,21 @@
+{
+    "require": {
+        "php": ">=7.4",
+        "vlucas/phpdotenv": "^5.3",
+        "slim/slim": "^4.0",
+        "slim/psr7": "^1.0",
+        "psr/http-message": "^2.0",
+        "respect/validation": "^2.3",
+        "monolog/monolog": "^3.8",
+        "php-di/php-di": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Domain\\": "src/Domain/",
+            "Application\\": "src/Application/",
+            "Infrastructure\\": "src/Infrastructure/",
+            "Web\\": "src/Web/",
+            "Validator\\": "src/Validator/"
+        }
+    }
+}

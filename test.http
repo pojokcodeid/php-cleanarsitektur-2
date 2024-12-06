@@ -1,0 +1,24 @@
+### Create User
+POST http://localhost/example/users
+Content-Type: application/json
+{
+  "name": "Pojok Code",
+  "email": "pojok@gmail.com"
+}
+
+### get all user
+GET http://localhost/example/users
+
+### get user by id
+GET http://localhost/example/users/1
+
+### update user
+PUT http://localhost/example/users/1
+Content-Type: application/json
+{
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+
+### Delete User
+ http://localhost/example/users/9
